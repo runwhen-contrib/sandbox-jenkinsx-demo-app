@@ -45,10 +45,10 @@ spec:
           resources: {}
         - name: promote-changelog
           resources: {}
-        - name: promote-helm-release
-          resources: {}
-        - name: promote-jx-promote
-          resources: {}
+        # - name: promote-helm-release
+        #   resources: {}
+        # - name: promote-jx-promote
+        #   resources: {}
         volumes:
         - name: npmrc
           secret:
